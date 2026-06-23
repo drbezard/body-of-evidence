@@ -62,7 +62,7 @@ export default function Home() {
       
       {/* HEADER / NAVIGATION */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border transition-colors duration-300">
-        <div className="container mx-auto h-20 flex items-center justify-between">
+        <div className="container mx-auto h-20 flex items-center justify-between gap-4">
           
           {/* Logo / Monogram */}
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
@@ -78,7 +78,7 @@ export default function Home() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6 text-xs uppercase tracking-widest">
+          <nav className="hidden lg:flex items-center space-x-6 text-xs uppercase tracking-widest shrink-0">
             <button onClick={() => scrollToSection("concept")} className="hover:text-accent transition-colors duration-200">{t.nav.concept}</button>
             <button onClick={() => scrollToSection("assessments")} className="hover:text-accent transition-colors duration-200">{t.nav.assessments}</button>
             <button onClick={() => scrollToSection("timeline")} className="hover:text-accent transition-colors duration-200">{t.nav.timeline}</button>
