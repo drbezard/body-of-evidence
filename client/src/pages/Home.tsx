@@ -65,20 +65,20 @@ export default function Home() {
         <div className="container mx-auto h-20 flex items-center justify-between gap-4">
           
           {/* Logo / Monogram */}
-          <div className="flex items-center space-x-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+          <div className="flex items-center space-x-3 cursor-pointer shrink-0" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
             <img 
               src="https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/GtzZpAt8haA3Ykn9NJsENN/boe_logo-YQZ43LPjNd5jibcifWHmmp.webp" 
               alt="B.O.E Logo" 
               className="h-10 w-10 object-contain invert dark:invert-0"
             />
             <div className="hidden sm:flex flex-col whitespace-nowrap">
-              <span className="font-serif text-base font-semibold tracking-wider uppercase">Body of Evidence</span>
-              <span className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">Drs. Bessard • Vienna</span>
+              <span className="font-serif text-sm font-semibold tracking-wider uppercase">Body of Evidence</span>
+              <span className="text-[8px] uppercase tracking-[0.2em] text-muted-foreground">Drs. Bessard • Vienna</span>
             </div>
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center space-x-6 text-xs uppercase tracking-widest shrink-0">
+          <nav className="hidden xl:flex items-center space-x-6 text-xs uppercase tracking-widest shrink-0">
             <button onClick={() => scrollToSection("concept")} className="hover:text-accent transition-colors duration-200">{t.nav.concept}</button>
             <button onClick={() => scrollToSection("assessments")} className="hover:text-accent transition-colors duration-200">{t.nav.assessments}</button>
             <button onClick={() => scrollToSection("timeline")} className="hover:text-accent transition-colors duration-200">{t.nav.timeline}</button>
@@ -87,7 +87,7 @@ export default function Home() {
           </nav>
 
           {/* Actions */}
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden xl:flex items-center space-x-4 shrink-0">
             <button 
               onClick={handleLanguageToggle} 
               className="flex items-center space-x-1.5 text-[10px] uppercase tracking-widest border border-border px-2 py-1 hover:bg-secondary transition-all duration-200"
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center space-x-3 lg:hidden">
+          <div className="flex items-center space-x-3 xl:hidden">
             <button 
               onClick={handleLanguageToggle} 
               className="text-[10px] uppercase tracking-widest border border-border px-2 py-1"
@@ -122,7 +122,7 @@ export default function Home() {
 
       {/* MOBILE MENU */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-background pt-24 px-6 flex flex-col justify-between lg:hidden animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-40 bg-background pt-24 px-6 flex flex-col justify-between xl:hidden animate-in fade-in duration-200">
           <nav className="flex flex-col space-y-6 text-xl uppercase tracking-widest font-serif">
             <button onClick={() => scrollToSection("concept")} className="text-left py-2 border-b border-border">{t.nav.concept}</button>
             <button onClick={() => scrollToSection("assessments")} className="text-left py-2 border-b border-border">{t.nav.assessments}</button>
