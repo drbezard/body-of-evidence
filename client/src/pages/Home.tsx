@@ -71,9 +71,9 @@ export default function Home() {
               alt="B.O.E Logo" 
               className="h-10 w-10 object-contain invert dark:invert-0"
             />
-            <div className="flex flex-col">
-              <span className="font-serif text-lg font-semibold tracking-wider uppercase">Body of Evidence</span>
-              <span className="text-[10px] uppercase tracking-[0.2em] text-muted-foreground">Drs. Bessard • Vienna</span>
+            <div className="hidden sm:flex flex-col whitespace-nowrap">
+              <span className="font-serif text-base font-semibold tracking-wider uppercase">Body of Evidence</span>
+              <span className="text-[9px] uppercase tracking-[0.2em] text-muted-foreground">Drs. Bessard • Vienna</span>
             </div>
           </div>
 
