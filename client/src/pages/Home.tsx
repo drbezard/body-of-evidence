@@ -73,7 +73,7 @@ export default function Home() {
             />
             <div className="hidden sm:flex flex-col whitespace-nowrap">
               <span className="font-serif text-sm font-semibold tracking-wider uppercase">Body of Evidence</span>
-              <span className="text-[8px] uppercase tracking-[0.2em] text-muted-foreground">Drs. Bessard • Vienna</span>
+              <span className="text-[8px] uppercase tracking-[0.2em] text-muted-foreground">Drs. Bézard • Vienna</span>
             </div>
           </div>
 
@@ -390,11 +390,11 @@ export default function Home() {
             <div className="lg:col-span-6 relative aspect-[3/2] lg:aspect-square overflow-hidden bg-secondary">
               <img 
                 src="https://d2xsxph8kpxj0f.cloudfront.net/310519663217967817/GtzZpAt8haA3Ykn9NJsENN/bessard_portrait-eT2GXHqPS4w6wy9bYJvNPk.webp" 
-                alt="Dr. Patricia Bessard & Dr. Georg Bessard" 
+                alt="Dr. Patricia Bézard & Dr. Georg Bézard" 
                 className="w-full h-full object-cover filter grayscale contrast-110 hover:grayscale-0 transition-all duration-700"
               />
               <div className="absolute bottom-6 left-6 bg-background/90 backdrop-blur-sm p-4 border border-border">
-                <p className="text-xs uppercase tracking-widest text-foreground font-medium">Dr. Patricia & Dr. Georg Bessard</p>
+                <p className="text-xs uppercase tracking-widest text-foreground font-medium">Dr. Patricia & Dr. Georg Bézard</p>
                 <p className="text-[10px] text-muted-foreground mt-1">Ärztliche Leitung & Gründer</p>
               </div>
             </div>
@@ -502,7 +502,7 @@ export default function Home() {
 
           <div className="flex flex-col">
             <span className="font-serif text-xl tracking-wider uppercase">Body of Evidence</span>
-            <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-1">Drs. Bessard • Vienna</span>
+            <span className="text-xs uppercase tracking-[0.2em] text-muted-foreground mt-1">Drs. Bézard • Vienna</span>
           </div>
 
           <p className="text-xs text-muted-foreground max-w-2xl leading-relaxed">
@@ -510,7 +510,7 @@ export default function Home() {
           </p>
 
           <div className="text-[10px] uppercase tracking-widest text-muted-foreground/60 pt-8 border-t border-border w-full">
-            © {new Date().getFullYear()} Body of Evidence. All rights reserved. • Project Owner: Dr. Georg Bessard
+            © {new Date().getFullYear()} Body of Evidence. All rights reserved. • Project Owner: Dr. Georg Bézard
           </div>
 
         </div>

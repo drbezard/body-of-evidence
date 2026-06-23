@@ -9,9 +9,9 @@ export const TRANSLATIONS = {
       language: "EN"
     },
     hero: {
-      subtitle: "Wiener Schule der Medizin — Seit 1882",
+      subtitle: "Kaiserliche Wiener Medizin-Tradition — Seit 1882",
       title: "Wir vermuten nicht. Wir belegen.",
-      description: "Das radikal evidenzbasierte Longevity- und Präzisionsmedizin-Assessment für Persönlichkeiten, die keine Kompromisse eingehen. Geleitet von Dr. Patricia & Dr. Georg Bessard im Rudolfinerhaus Wien.",
+      description: "Das radikal evidenzbasierte Longevity- und Präzisionsmedizin-Assessment für Persönlichkeiten, die keine Kompromisse eingehen. Geleitet von Dr. Patricia & Dr. Georg Bézard im Rudolfinerhaus Wien.",
       cta_primary: "Private Konsultation anfragen",
       cta_secondary: "Das Konzept entdecken"
     },
@@ -19,7 +19,7 @@ export const TRANSLATIONS = {
       title: "Medizin ohne Kompromisse",
       subtitle: "Die Philosophie",
       p1: "Moderne Medizin verliert sich oft in Wellness-Trends und unbewiesenen Versprechungen. Wir brechen mit diesem Hype. 'Body of Evidence' steht für die absolute, wissenschaftlich belegte Wahrheit über Ihren Körper.",
-      p2: "In Kooperation mit der renommierten Privatklinik Rudolfinerhaus bündeln wir die führenden Köpfe der Wiener Medizin an einem einzigen Tag für Sie. Kein stummer Fragebogen-Service, keine anonyme Plattform – sondern ein lückenloses, von uns persönlich kuratiertes Facharztkonsilium auf 5-Sterne-Niveau.",
+      p2: "In Kooperation mit der traditionsreichen Privatklinik Rudolfinerhaus – gegründet 1882 von Theodor Billroth – verbinden wir imperiales Wiener Flair mit modernster High-End-Diagnostik. Kein stummer Fragebogen-Service, sondern ein lückenloses, von uns persönlich geleitetes Facharztkonsilium auf dem Niveau der historischen 'Wiener Schule der Medizin'. Die Spitzenmediziner des Hauses kommen für Sie an einem einzigen Tag direkt in Ihre private, herrschaftliche Suite.",
       stat1_num: "100%",
       stat1_text: "Evidenzbasiert",
       stat2_num: "10+",
@@ -49,7 +49,7 @@ export const TRANSLATIONS = {
           "Neurologie-Konsil (inkl. Carotis-Ultraschall & Demenz-Screening)",
           "HNO-Konsil (inkl. Audiometrie & Gleichgewichtstest)",
           "Private Suite im Rudolfinerhaus & Premium-Catering",
-          "60-minütiges Abschlussgespräch mit Drs. Bessard"
+          "60-minütiges Abschlussgespräch mit Drs. Bézard"
         ]
       },
       advanced: {
@@ -65,7 +65,7 @@ export const TRANSLATIONS = {
           "Arterielle Pulswellenanalyse (Gefäßsteifigkeit & Gefäßalter)",
           "Nutzung der exklusiven Premium-Suite im Rudolfinerhaus",
           "Erweitertes Hauben-Catering für Sie und Ihre Begleitung",
-          "90-minütiges Befundgespräch mit Drs. Bessard",
+          "90-minütiges Befundgespräch mit Drs. Bézard",
           "Übergabe des edel gedruckten, persönlichen 'Longevity-Buchs'"
         ]
       },
@@ -83,7 +83,7 @@ export const TRANSLATIONS = {
           "Exklusive Rudolfinerhaus-Präsidentensuite mit Butler-Service",
           "Privater Hauben-Koch in der Klinik",
           "6 Monate kontinuierliche medizinische Nachbetreuung",
-          "24/7 Direktzugang (VIP-Hotline) zu Drs. Bessard persönlich"
+          "24/7 Direktzugang (VIP-Hotline) zu Drs. Bézard persönlich"
         ]
       }
     },
@@ -92,7 +92,7 @@ export const TRANSLATIONS = {
       subtitle: "Ein minutiöses Protokoll",
       desc: "Zeit ist Ihr wertvollstes Gut. Deshalb haben wir den Tag so strukturiert, dass Sie maximale medizinische Tiefe ohne jegliche Wartezeit erleben. Die Ärzte kommen zu Ihnen in die Suite.",
       steps: [
-        { time: "08:00", title: "Check-in & Empfang", desc: "Begrüßung durch Drs. Bessard in Ihrer privaten Tages-Suite im Rudolfinerhaus." },
+        { time: "08:00", title: "Check-in & Empfang", desc: "Begrüßung durch Drs. Bézard in Ihrer privaten Tages-Suite im Rudolfinerhaus." },
         { time: "08:15", title: "Nüchtern-Labor", desc: "Umfassende Blutabnahme für alle Premium-Biomarker direkt in der Suite." },
         { time: "08:30", title: "Gastro- & Koloskopie", desc: "Schmerzfreie endoskopische Vorsorge in sanfter Sedierung durch den Chef-Gastroenterologen." },
         { time: "10:30", title: "Erholungsphase", desc: "Leichtes, laborabgestimmtes Frühstück in Ihrer Suite." },
@@ -100,28 +100,28 @@ export const TRANSLATIONS = {
         { time: "13:00", title: "Mittagessen", desc: "Exklusives Hauben-Catering direkt in Ihrer Suite." },
         { time: "14:00", title: "Facharzt-Konsilium", desc: "Die Spezialisten (Dermatologie, Urologie, HNO, Neurologie) kommen nacheinander zu Ihnen." },
         { time: "15:30", title: "Kardiologie & Sportmedizin", desc: "Herzultraschall, Spiroergometrie (VO2max) und DEXA-Scan." },
-        { time: "18:00", title: "Befundgespräch", desc: "Ausgiebige Analyse aller Ergebnisse mit Drs. Bessard und Übergabe Ihres Therapieplans." }
+        { time: "18:00", title: "Befundgespräch", desc: "Ausgiebige Analyse aller Ergebnisse mit Drs. Bézard und Übergabe Ihres Therapieplans." }
       ]
     },
     about: {
       title: "Die medizinische Leitung",
       subtitle: "Wer wir sind",
-      p1: "Als Dr. Patricia Bessard und Dr. Georg Bessard stehen wir mit unserem Namen für die absolute Integrität und Qualität dieses Programms. Wir sind keine anonyme Plattform, die Rezepte generiert. Wir sind Ihre persönlichen Ärzte.",
+      p1: "Als Dr. Patricia Bézard und Dr. Georg Bézard stehen wir mit unserem Namen für die absolute Integrität und Qualität dieses Programms. Wir sind keine anonyme Plattform, die Rezepte generiert. Wir sind Ihre persönlichen Ärzte.",
       p2: "Mit jahrzehntelanger Erfahrung in der universitären Spitzenmedizin und der privaten Präventivmedizin haben wir 'Body of Evidence' gegründet, um die Lücke zwischen wissenschaftlicher Exzellenz und absolutem Patientenfokus zu schließen. Wir koordinieren Ihr Konsilium, analysieren Ihre Daten und begleiten Sie langfristig auf Ihrem Weg zu optimaler Gesundheit.",
-      sig: "Dr. Patricia Bessard & Dr. Georg Bessard"
+      sig: "Dr. Patricia Bézard & Dr. Georg Bézard"
     },
     contact: {
       title: "Private Konsultation",
       subtitle: "Diskret & Unverbindlich",
-      desc: "Hinterlassen Sie uns Ihre Kontaktdaten. Dr. Patricia oder Dr. Georg Bessard wird sich innerhalb von 24 Stunden persönlich bei Ihnen melden, um Ihre Vorstellungen in einem diskreten Erstgespräch zu besprechen.",
+      desc: "Hinterlassen Sie uns Ihre Kontaktdaten. Dr. Patricia oder Dr. Georg Bézard wird sich innerhalb von 24 Stunden persönlich bei Ihnen melden, um Ihre Vorstellungen in einem diskreten Erstgespräch zu besprechen.",
       name: "Ihr Name",
       email: "E-Mail-Adresse",
       phone: "Telefonnummer",
       message: "Ihre Nachricht (optional)",
       send: "Anfrage absenden",
       sending: "Wird gesendet...",
-      success: "Vielen Dank. Dr. Bessard wird sich in Kürze persönlich bei Ihnen melden.",
-      imprint: "Impressum: Body of Evidence GmbH, Billrothstraße 78, 1190 Wien. Drs. Bessard sind Mitglieder der Ärztekammer für Wien. Rudolfinerhaus Privatklinik Wien."
+      success: "Vielen Dank. Dr. Bézard wird sich in Kürze persönlich bei Ihnen melden.",
+      imprint: "Impressum: Body of Evidence GmbH, Billrothstraße 78, 1190 Wien. Drs. Bézard sind Mitglieder der Ärztekammer für Wien. Rudolfinerhaus Privatklinik Wien."
     }
   },
   en: {
@@ -134,9 +134,9 @@ export const TRANSLATIONS = {
       language: "DE"
     },
     hero: {
-      subtitle: "Viennese School of Medicine — Since 1882",
+      subtitle: "Imperial Viennese Medical Tradition — Since 1882",
       title: "We do not guess. We prove.",
-      description: "The radically evidence-based longevity and precision medicine assessment for individuals who refuse to compromise. Led by Dr. Patricia & Dr. Georg Bessard at Rudolfinerhaus Vienna.",
+      description: "The radically evidence-based longevity and precision medicine assessment for individuals who refuse to compromise. Led by Dr. Patricia & Dr. Georg Bézard at Rudolfinerhaus Vienna.",
       cta_primary: "Request Private Consultation",
       cta_secondary: "Discover the Concept"
     },
@@ -144,7 +144,7 @@ export const TRANSLATIONS = {
       title: "Medicine Without Compromise",
       subtitle: "The Philosophy",
       p1: "Modern medicine often gets lost in wellness trends and unproven promises. We break with this hype. 'Body of Evidence' stands for the absolute, scientifically proven truth about your body.",
-      p2: "In cooperation with the prestigious Rudolfinerhaus private clinic, we assemble the leading minds of Viennese medicine for you in a single day. No silent questionnaires, no anonymous platforms – but a seamless specialist council curated personally by us at a 5-star level.",
+      p2: "In cooperation with the historic Rudolfinerhaus private clinic – founded in 1882 by Theodor Billroth – we combine imperial Viennese heritage with state-of-the-art high-end diagnostics. No silent questionnaires, but a seamless specialist council led by us personally, rooted in the legacy of the 'Viennese School of Medicine'. Vienna's elite physicians visit you on a single day, directly in your private, grand hospital suite.",
       stat1_num: "100%",
       stat1_text: "Evidence-Based",
       stat2_num: "10+",
@@ -174,7 +174,7 @@ export const TRANSLATIONS = {
           "Neurology consultation (incl. carotis ultrasound & dementia screening)",
           "ENT consultation (incl. audiometry & balance test)",
           "Private suite at Rudolfinerhaus & premium catering",
-          "60-minute final consultation with Drs. Bessard"
+          "60-minute final consultation with Drs. Bézard"
         ]
       },
       advanced: {
@@ -190,7 +190,7 @@ export const TRANSLATIONS = {
           "Arterial pulse wave analysis (arterial stiffness & vascular age)",
           "Exclusive premium suite at Rudolfinerhaus",
           "Extended gourmet catering for you and your companion",
-          "90-minute final consultation with Drs. Bessard",
+          "90-minute final consultation with Drs. Bézard",
           "Handover of the elegantly printed, personal 'Longevity Book'"
         ]
       },
@@ -208,7 +208,7 @@ export const TRANSLATIONS = {
           "Exclusive Rudolfinerhaus Presidential Suite with butler service",
           "Private gourmet chef at the clinic",
           "6 months of continuous medical follow-up",
-          "24/7 direct access (VIP hotline) to Drs. Bessard personally"
+          "24/7 direct access (VIP hotline) to Drs. Bézard personally"
         ]
       }
     },
@@ -217,7 +217,7 @@ export const TRANSLATIONS = {
       subtitle: "A Meticulous Protocol",
       desc: "Time is your most valuable asset. That is why we have structured the day so that you experience maximum medical depth without any waiting time. The doctors come to you in your suite.",
       steps: [
-        { time: "08:00", title: "Check-in & Welcome", desc: "Welcome by Drs. Bessard in your private day suite at Rudolfinerhaus." },
+        { time: "08:00", title: "Check-in & Welcome", desc: "Welcome by Drs. Bézard in your private day suite at Rudolfinerhaus." },
         { time: "08:15", title: "Fasting Lab", desc: "Comprehensive blood draw for all premium biomarkers directly in your suite." },
         { time: "08:30", title: "Gastro- & Colonoscopy", desc: "Painless endoscopic screening under light sedation by the chief gastroenterologist." },
         { time: "10:30", title: "Recovery Phase", desc: "Light, laboratory-tailored breakfast in your suite." },
@@ -225,28 +225,28 @@ export const TRANSLATIONS = {
         { time: "13:00", title: "Lunch", desc: "Exclusive gourmet catering served directly in your suite." },
         { time: "14:00", title: "Specialist Council", desc: "The specialists (dermatology, urology, ENT, neurology) visit you one by one." },
         { time: "15:30", title: "Cardiology & Sports Medicine", desc: "Echocardiography, spiroergometry (VO2max), and DEXA scan." },
-        { time: "18:00", title: "Befundgespräch", desc: "Extensive analysis of all results with Drs. Bessard and handover of your therapy plan." }
+        { time: "18:00", title: "Befundgespräch", desc: "Extensive analysis of all results with Drs. Bézard and handover of your therapy plan." }
       ]
     },
     about: {
       title: "The Medical Leadership",
       subtitle: "Who We Are",
-      p1: "As Dr. Patricia Bessard and Dr. Georg Bessard, we stand with our name for the absolute integrity and quality of this program. We are not an anonymous platform that generates prescriptions. We are your personal physicians.",
+      p1: "As Dr. Patricia Bézard and Dr. Georg Bézard, we stand with our name for the absolute integrity and quality of this program. We are not an anonymous platform that generates prescriptions. We are your personal physicians.",
       p2: "With decades of experience in university medicine and private preventive medicine, we founded 'Body of Evidence' to bridge the gap between scientific excellence and absolute patient focus. We coordinate your council, analyze your data, and accompany you long-term on your path to optimal health.",
-      sig: "Dr. Patricia Bessard & Dr. Georg Bessard"
+      sig: "Dr. Patricia Bézard & Dr. Georg Bézard"
     },
     contact: {
       title: "Private Consultation",
       subtitle: "Discreet & Non-Binding",
-      desc: "Leave us your contact details. Dr. Patricia or Dr. Georg Bessard will contact you personally within 24 hours to discuss your expectations in a discreet initial consultation.",
+      desc: "Leave us your contact details. Dr. Patricia or Dr. Georg Bézard will contact you personally within 24 hours to discuss your expectations in a discreet initial consultation.",
       name: "Your Name",
       email: "Email Address",
       phone: "Phone Number",
       message: "Your Message (optional)",
       send: "Submit Request",
       sending: "Sending...",
-      success: "Thank you. Dr. Bessard will contact you personally shortly.",
-      imprint: "Imprint: Body of Evidence GmbH, Billrothstraße 78, 1190 Vienna. Drs. Bessard are members of the Vienna Medical Chamber. Rudolfinerhaus Private Clinic Vienna."
+      success: "Thank you. Dr. Bézard will contact you personally shortly.",
+      imprint: "Imprint: Body of Evidence GmbH, Billrothstraße 78, 1190 Vienna. Drs. Bézard are members of the Vienna Medical Chamber. Rudolfinerhaus Private Clinic Vienna."
     }
   }
 };
