@@ -78,7 +78,7 @@ export default function Home() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 text-sm uppercase tracking-widest">
+          <nav className="hidden lg:flex items-center space-x-6 text-xs uppercase tracking-widest">
             <button onClick={() => scrollToSection("concept")} className="hover:text-accent transition-colors duration-200">{t.nav.concept}</button>
             <button onClick={() => scrollToSection("assessments")} className="hover:text-accent transition-colors duration-200">{t.nav.assessments}</button>
             <button onClick={() => scrollToSection("timeline")} className="hover:text-accent transition-colors duration-200">{t.nav.timeline}</button>
@@ -87,10 +87,10 @@ export default function Home() {
           </nav>
 
           {/* Actions */}
-          <div className="hidden md:flex items-center space-x-6">
+          <div className="hidden lg:flex items-center space-x-4">
             <button 
               onClick={handleLanguageToggle} 
-              className="flex items-center space-x-1.5 text-xs uppercase tracking-widest border border-border px-3 py-1.5 hover:bg-secondary transition-all duration-200"
+              className="flex items-center space-x-1.5 text-[10px] uppercase tracking-widest border border-border px-2 py-1 hover:bg-secondary transition-all duration-200"
             >
               <Globe className="h-3 w-3" />
               <span>{t.nav.language}</span>
@@ -98,22 +98,22 @@ export default function Home() {
             <Button 
               variant="default" 
               onClick={() => scrollToSection("contact")}
-              className="text-xs uppercase tracking-widest bg-foreground text-background hover:bg-foreground/90 transition-all duration-200 px-6 py-5"
+              className="text-[10px] uppercase tracking-widest bg-foreground text-background hover:bg-foreground/90 transition-all duration-200 px-4 py-4"
             >
               {t.hero.cta_primary}
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="flex items-center space-x-4 md:hidden">
+          <div className="flex items-center space-x-3 lg:hidden">
             <button 
               onClick={handleLanguageToggle} 
-              className="text-xs uppercase tracking-widest border border-border px-2 py-1"
+              className="text-[10px] uppercase tracking-widest border border-border px-2 py-1"
             >
               {t.nav.language}
             </button>
-            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="text-foreground">
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            <button onClick={() => setMobileMenuOpen(!mobileMenuOpen)} className="text-foreground p-1">
+              {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             </button>
           </div>
 
@@ -122,7 +122,7 @@ export default function Home() {
 
       {/* MOBILE MENU */}
       {mobileMenuOpen && (
-        <div className="fixed inset-0 z-40 bg-background pt-24 px-6 flex flex-col justify-between md:hidden animate-in fade-in duration-200">
+        <div className="fixed inset-0 z-40 bg-background pt-24 px-6 flex flex-col justify-between lg:hidden animate-in fade-in duration-200">
           <nav className="flex flex-col space-y-6 text-xl uppercase tracking-widest font-serif">
             <button onClick={() => scrollToSection("concept")} className="text-left py-2 border-b border-border">{t.nav.concept}</button>
             <button onClick={() => scrollToSection("assessments")} className="text-left py-2 border-b border-border">{t.nav.assessments}</button>
