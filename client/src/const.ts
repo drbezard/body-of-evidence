@@ -9,17 +9,17 @@ export const TRANSLATIONS = {
       language: "EN"
     },
     hero: {
-      subtitle: "Kaiserliche Wiener Medizin-Tradition — Seit 1882",
-      title: "Wir vermuten nicht. Wir belegen.",
-      description: "Das radikal evidenzbasierte Longevity- und Präzisionsmedizin-Assessment für Persönlichkeiten, die keine Kompromisse eingehen. Geleitet von Dr. Patricia & Dr. Georg Bézard im Rudolfinerhaus Wien.",
+      subtitle: "Im renommiertesten Privatspital Österreichs — Seit 1882",
+      title: "Wir transfundieren nicht das Blut Ihres Kindes.",
+      description: "Sondern wir machen echte Medizin. Body of Evidence ist das radikal evidenzbasierte Diagnostik-Programm im Wiener Rudolfinerhaus. Ohne Bullshit, ohne magische Stammzellen, ohne Eigenblutinfusionen. Zehn handverlesene Spitzen-Experten an Ihrem Bett. Apparativ hochwertigste Untersuchungstechniken auf dem neuesten Stand der Wissenschaft, die wirklich Sinn machen zur Prävention und Früherkennung.",
       cta_primary: "Private Konsultation anfragen",
       cta_secondary: "Das Konzept entdecken"
     },
     concept: {
-      title: "Medizin ohne Kompromisse",
-      subtitle: "Die Philosophie",
-      p1: "Moderne Medizin verliert sich oft in Wellness-Trends und unbewiesenen Versprechungen. Wir brechen mit diesem Hype. 'Body of Evidence' steht für die absolute, wissenschaftlich belegte Wahrheit über Ihren Körper.",
-      p2: "In Kooperation mit der traditionsreichen Privatklinik Rudolfinerhaus – gegründet 1882 von Theodor Billroth – verbinden wir imperiales Wiener Flair mit modernster High-End-Diagnostik. Kein stummer Fragebogen-Service, sondern ein lückenloses, von uns persönlich geleitetes Facharztkonsilium auf dem Niveau der historischen 'Wiener Schule der Medizin'. Die Spitzenmediziner des Hauses kommen für Sie an einem einzigen Tag direkt in Ihre private, herrschaftliche Suite.",
+      title: "Echte Medizin. Keine Märchen.",
+      subtitle: "Das Manifest",
+      p1: "Moderne Medizin verliert sich oft in teuren Wellness-Trends, magischen Stammzellen und unbewiesenen Versprechungen. Wir brechen radikal mit diesem Hype. 'Body of Evidence' steht für die absolute, wissenschaftlich belegte Wahrheit über Ihren Körper – ohne Kompromisse und ohne Bullshit.",
+      p2: "In Kooperation mit der traditionsreichen Privatklinik Rudolfinerhaus – gegründet 1882 von Theodor Billroth – verbinden wir imperiales Wiener Prestige mit modernster High-End-Diagnostik. Kein anonymer Online-Fragebogen, sondern ein lückenloses, von uns persönlich koordiniertes Facharztkonsilium auf dem Niveau der historischen 'Wiener Schule der Medizin'. Zehn handverlesene Spitzenmediziner des Hauses kommen für Sie an einem einzigen Tag direkt in Ihre private, herrschaftliche Suite.",
       stat1_num: "100%",
       stat1_text: "Evidenzbasiert",
       stat2_num: "10+",
@@ -134,17 +134,17 @@ export const TRANSLATIONS = {
       language: "DE"
     },
     hero: {
-      subtitle: "Imperial Viennese Medical Tradition — Since 1882",
-      title: "We do not guess. We prove.",
-      description: "The radically evidence-based longevity and precision medicine assessment for individuals who refuse to compromise. Led by Dr. Patricia & Dr. Georg Bézard at Rudolfinerhaus Vienna.",
+      subtitle: "At Austria's Most Prestigious Private Hospital — Since 1882",
+      title: "We do not transfuse the blood of your child.",
+      description: "We practice real medicine. Body of Evidence is the radically evidence-based diagnostic program at Rudolfinerhaus Vienna. No bullshit, no magical stem cells, no autologous blood infusions. Ten hand-picked elite specialists at your bedside. State-of-the-art diagnostic imaging at the forefront of science that actually makes clinical sense for prevention and early detection.",
       cta_primary: "Request Private Consultation",
       cta_secondary: "Discover the Concept"
     },
     concept: {
-      title: "Medicine Without Compromise",
-      subtitle: "The Philosophy",
-      p1: "Modern medicine often gets lost in wellness trends and unproven promises. We break with this hype. 'Body of Evidence' stands for the absolute, scientifically proven truth about your body.",
-      p2: "In cooperation with the historic Rudolfinerhaus private clinic – founded in 1882 by Theodor Billroth – we combine imperial Viennese heritage with state-of-the-art high-end diagnostics. No silent questionnaires, but a seamless specialist council led by us personally, rooted in the legacy of the 'Viennese School of Medicine'. Vienna's elite physicians visit you on a single day, directly in your private, grand hospital suite.",
+      title: "Real Medicine. No Fairy Tales.",
+      subtitle: "The Manifesto",
+      p1: "Modern medicine often gets lost in expensive wellness trends, magical stem cells, and unproven promises. We radically break with this hype. 'Body of Evidence' stands for the absolute, scientifically proven truth about your body – without compromise, and without bullshit.",
+      p2: "In cooperation with the historic Rudolfinerhaus private clinic – founded in 1882 by Theodor Billroth – we combine imperial Viennese prestige with state-of-the-art high-end diagnostics. No anonymous online questionnaires, but a seamless specialist council coordinated by us personally, rooted in the legacy of the 'Viennese School of Medicine'. Ten hand-picked elite physicians visit you on a single day, directly in your private, grand hospital suite.",
       stat1_num: "100%",
       stat1_text: "Evidence-Based",
       stat2_num: "10+",
