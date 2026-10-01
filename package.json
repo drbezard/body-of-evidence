@@ -2,13 +2,13 @@
   "name": "body-of-evidence",
   "version": "1.0.0",
   "type": "module",
-  "license": "MIT",
-  "scripts": {
-    "dev": "vite --host",
-    "build": "vite build && esbuild server/index.ts --platform=node --packages=external --bundle --format=esm --outdir=dist",
-    "start": "NODE_ENV=production node dist/index.js",
-    "preview": "vite preview --host",
-    "check": "tsc --noEmit",
+ "license": "MIT",
+ "scripts": {
+   "dev": "vite --host",
+    "build": "vite build",
+   "start": "NODE_ENV=production node dist/index.js",
+   "preview": "vite preview --host",
+   "check": "tsc --noEmit",
     "format": "prettier --write ."
   },
   "dependencies": {
